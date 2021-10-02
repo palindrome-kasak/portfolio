@@ -1,0 +1,4 @@
+black:212121
+green:6D9886
+pink:D9CAB3
+white:F6F6F6

@@ -1,5 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import NavBar from './Components/NavBar'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Projects from './Pages/Projects'
+import Contact from './Pages/Contact'
+import Resume from './Pages/Resume'
 
 function App() {
   return (
@@ -19,9 +25,21 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div>
-      <h1>all the best</h1>
-    </div>
+    <>
+      <Router>
+        <NavBar />
+        <Switch>
+        <Route exact path="/" component={Home}/>
+          <Route exact path="/Projects" component={Projects}/>
+          <Route exact path="/About" component={About}/>
+          <Route exact path="/Resume" component={Resume}/>
+          <Route exact path="/Contact" component={Contact}/>
+
+        </Switch>
+        
+      </Router>
+
+    </>
   );
 }
 

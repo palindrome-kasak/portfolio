@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
+import Resume from './Pages/Resume'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/" component={Home}/>
           <Route exact path="/Projects" component={Projects}/>
           <Route exact path="/About" component={About}/>
+          <Route exact path="/Resume" component={Resume}/>
           <Route exact path="/Contact" component={Contact}/>
 
         </Switch>

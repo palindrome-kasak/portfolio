@@ -88,14 +88,16 @@ export default function About() {
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
+                  I am from firozabad, Uttar Pradesh. A place of beauty and
+                  nature.{/* Since my childhood, i love art and design. I always
                   try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  to create things that can be usefull to others. */}
+                  I am a Front End developer with industry experience building websites and web applications. I specialize in JavaScript and have experience working with react native and react js.
+Engineering professional with a bachelor of technology - Btech focused in the information of technology from J.S.S. Academy of Technical Education, Noida
+Enthusiastic learner , minimal, Greatful !!✨
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
+                  I started coding since I was in first year of college. Coding is also an
+                  art for me. I love it and. I find it really interesting and I
                   enjoyed the process a lot.
                   <br />
                   <br />
@@ -117,48 +119,59 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['SMK SENIOR SECONDARY SCHOOL']}
               />
               <AboutInfoItem
                 title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                items={['J.S.S. Academy of Technical Education, Noida']}
               />
-              <AboutInfoItem
+              {/* <AboutInfoItem
                 title="Varsity"
                 items={['University Of Chitiagong']}
-              />
+              /> */}
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT-JS', 'REACT-NATIVE']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                items={['Firebase']}
+              />
+              <AboutInfoItem
+                title="Library"
+                items={['Material-UI', 'bootstrap']}
+              />
+              <AboutInfoItem
+                title="languages"
+                items={['JAVA', 'PYTHON','DSA']}
               />
               <AboutInfoItem
                 title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                items={['figma']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
-
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="sept-nov 2020"
+                items={['junior developer at Here2help']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="Nov-jan 2021"
+                items={['FrontEnd developer at Contango']}
               />
               <AboutInfoItem
+                title="june-aug 2021"
+                items={['developer at Creed essential']}
+              />
+              {/* <AboutInfoItem
                 title="2016-"
                 items={['Freelance web Developer']}
-              />
+              /> */}
             </div>
           </div>
         </div>

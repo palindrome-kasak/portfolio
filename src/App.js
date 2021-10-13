@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
@@ -32,7 +32,9 @@ function App() {
         <Route exact path="/" component={Home}/>
           <Route exact path="/Projects" component={Projects}/>
           <Route exact path="/About" component={About}/>
-          <Route exact path="/Resume" component={Resume}/>
+          {/* <Link to={{ pathname: "https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing" }} 
+target="_blank">Resume</Link> */}
+          {/* <Route  path="/Resume" component={Resume}/> */}
           <Route exact path="/Contact" component={Contact}/>
 
         </Switch>

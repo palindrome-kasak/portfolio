@@ -135,10 +135,10 @@ Enthusiastic learner , minimal, Greatful !!✨
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT-JS', 'REACT-NATIVE']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT-JS']}
               />
               <AboutInfoItem
-                title="BackEnd"
+                title="Databases"
                 items={['Firebase']}
               />
               <AboutInfoItem
@@ -152,6 +152,14 @@ Enthusiastic learner , minimal, Greatful !!✨
               <AboutInfoItem
                 title="Design"
                 items={['figma']}
+              />
+              <AboutInfoItem
+                title="Tools"
+                items={['VsCode','intelliJ','github']}
+              />
+               <AboutInfoItem
+                title="FrameWork"
+                items={['REACT-NATIVE']}
               />
             </div>
             <div className="about__info__item">

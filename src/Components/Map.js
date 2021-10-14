@@ -50,7 +50,7 @@ export default function Map() {
       <div className="container">
         <div className="map__card">
           <h3 className="map__card__heading">Here is me</h3>
-          <PText>GEC circle, Chittagong, Bangladesh</PText>
+          <PText>JSS Academy of Technical Education, Noida</PText>
           <a
             className="map__card__link"
             href="https://maps.app.goo.gl/EfZEa4JG7wWniBeB7"

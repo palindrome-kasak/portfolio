@@ -1,5 +1,6 @@
 import React from 'react'
 import myPictures from '../assets/pictures/myPictures.jpg'
+import back1 from '../assets/pictures/back1.jpg'
 
 const Home = () => {
     return (
@@ -21,7 +22,8 @@ const Home = () => {
 };
 const styles ={
         main:{
-            background:"#212121",
+           
+            
             display: "flex",
         flexDirection: "row",
         justifyContent: "space-around",

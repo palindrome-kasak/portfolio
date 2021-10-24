@@ -215,9 +215,9 @@ const NavBar = () => {
             {/* <Link to={{ pathname: "https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing" }} >Resume</Link> */}
           </Item>
           <Item>
-            <Link target="#" href="/Contact">
+            {/* <Link target="#" href="/Contact">
             Contact
-            </Link>
+            </Link> */}
           </Item>
         </Menu>
         <NavIcon onClick={() => toggleNav(!toggle)}>
@@ -249,9 +249,9 @@ const NavBar = () => {
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="/Contact">
+          {/* <Link target="#" href="/Contact">
             Contact
-            </Link>
+            </Link> */}
           </Item>
         </OverlayMenu>
       </Overlay>

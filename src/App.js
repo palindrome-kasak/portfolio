@@ -1,11 +1,11 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
-import Resume from './Pages/Resume'
+// import Resume from './Pages/Resume'
 
 function App() {
   return (

@@ -71,7 +71,7 @@ export default function Projects() {
             heading="Projects"
             subheading="some of my recent works"
           />
-          <div className="projects__searchBar">
+          {/* <div className="projects__searchBar">
             <form>
               <input
                 type="text"
@@ -79,9 +79,9 @@ export default function Projects() {
                 onChange={handleChange}
                 placeholder="Project Name"
               />
-              {/* <MdSearch className="searchIcon" /> */}
+              <MdSearch className="searchIcon" />
             </form>
-          </div>
+          </div> */}
           <div className="projects__allItems">
             {projectsData.map((item) => (
               <ProjectItem

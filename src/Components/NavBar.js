@@ -202,7 +202,7 @@ const NavBar = () => {
             <Link href="/About">
             About
             </Link>
-          </Item>
+          </Item> 
           <Item>
             <Link  href="/Projects">
             Projects
@@ -229,12 +229,12 @@ const NavBar = () => {
       <Overlay open={toggle}>
         <OverlayMenu open={toggle}>
           <Item>
-          <Link target="#" href="/">
+          <Link  href="/">
               Home
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="/About">
+          <Link href="/About">
             About
             </Link>
           </Item>
@@ -244,7 +244,7 @@ const NavBar = () => {
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="/Projects">
+          <Link href="/Projects">
             Projects
             </Link>
           </Item>

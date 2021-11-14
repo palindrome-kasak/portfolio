@@ -194,17 +194,17 @@ const NavBar = () => {
         {/* <Logo>CSS Tricks</Logo> */}
         <Menu>
           <Item>
-            <Link target="#" href="/">
+            <Link href="/">
               Home
             </Link>
           </Item>
           <Item>
-            <Link target="#" href="/About">
+            <Link href="/About">
             About
             </Link>
           </Item>
           <Item>
-            <Link target="#" href="/Projects">
+            <Link  href="/Projects">
             Projects
             </Link>
           </Item>

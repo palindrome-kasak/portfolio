@@ -107,7 +107,7 @@ Enthusiastic learner , minimal, Greatful !!✨
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              {/* <Button btnText="Download CV" btnLink="https://drive.google.com/file/d/10kB9_MDjd65zeo7HNPuIduhFVhtRKNGh/view?usp=sharing" /> */}
             </div>
             <div className="right">
               <img src={myPictures} alt="me" />

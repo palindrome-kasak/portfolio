@@ -209,7 +209,7 @@ const NavBar = () => {
             </Link>
           </Item>
           <Item>
-            <Link target="#" href="https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing">
+            <Link target="#" href="https://drive.google.com/file/d/10kB9_MDjd65zeo7HNPuIduhFVhtRKNGh/view?usp=sharing">
             Resume
             </Link>
             {/* <Link to={{ pathname: "https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing" }} >Resume</Link> */}
@@ -239,7 +239,7 @@ const NavBar = () => {
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing">
+          <Link target="#" href="https://drive.google.com/file/d/10kB9_MDjd65zeo7HNPuIduhFVhtRKNGh/view?usp=sharing">
             Resume
             </Link>
           </Item>

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 // import { MdSearch } from 'react-icons/md';
@@ -46,6 +47,7 @@ const ProjectStyle = styled.div`
 `;
 
 export default function Projects() {
+  //searchbar
   const [searchText, setSearchText] = useState('');
   const [projectsData, setProjectsData] = useState(ProjectsInfo);
   useEffect(() => {
@@ -56,6 +58,7 @@ export default function Projects() {
       )
     );
   }, [searchText]);
+  // eslint-disable-next-line no-unused-vars
   const handleChange = (e) => {
     e.preventDefault();
     setSearchText(e.target.value);

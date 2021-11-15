@@ -1,11 +1,9 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-import myPictures from '../assets/pictures/myPictures.jpg'
 import CropProfile from '../assets/pictures/CropProfile.png'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { SiLeetcode } from "react-icons/si";
 import Typical from 'react-typical';
-import { Link } from 'react-router-dom';
-// import back1 from '../assets/pictures/back1.jpg'
 
 const Home = () => {
     return (

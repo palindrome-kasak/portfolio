@@ -194,22 +194,22 @@ const NavBar = () => {
         {/* <Logo>CSS Tricks</Logo> */}
         <Menu>
           <Item>
-            <Link target="#" href="/">
+            <Link href="/">
               Home
             </Link>
           </Item>
           <Item>
-            <Link target="#" href="/About">
+            <Link href="/About">
             About
             </Link>
-          </Item>
+          </Item> 
           <Item>
-            <Link target="#" href="/Projects">
+            <Link  href="/Projects">
             Projects
             </Link>
           </Item>
           <Item>
-            <Link target="#" href="https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing">
+            <Link target="#" href="https://drive.google.com/file/d/10kB9_MDjd65zeo7HNPuIduhFVhtRKNGh/view?usp=sharing">
             Resume
             </Link>
             {/* <Link to={{ pathname: "https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing" }} >Resume</Link> */}
@@ -229,22 +229,22 @@ const NavBar = () => {
       <Overlay open={toggle}>
         <OverlayMenu open={toggle}>
           <Item>
-          <Link target="#" href="/">
+          <Link  href="/">
               Home
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="/About">
+          <Link href="/About">
             About
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="https://drive.google.com/file/d/1lGpeR3O0KbVszHVpT06QODUfQ_2U3lMn/view?usp=sharing">
+          <Link target="#" href="https://drive.google.com/file/d/10kB9_MDjd65zeo7HNPuIduhFVhtRKNGh/view?usp=sharing">
             Resume
             </Link>
           </Item>
           <Item>
-          <Link target="#" href="/Projects">
+          <Link href="/Projects">
             Projects
             </Link>
           </Item>

@@ -27,18 +27,22 @@ const Home = () => {
                             loop={Infinity}
                             wrapper="b"
                             // eslint-disable-next-line react/jsx-no-duplicate-props
-                            steps={['front-end developer',
+                            steps={['Developer',
                                 2000,
-                                'student',
+                                'Student',
                                 2000,
-                                'learner',
+                                'Coder',
                                 2000,
-                                'aspiring software engineer',
+                                'Learner',
                                 2000,
-                                'engineer',
+                                'Engineer',
                                 2000,]}
                         />
                     </div>
+
+                </div>
+                <div style={styles.secAboutContainer}>
+                    <p style={styles.paragraphText}>I am working as a freelance web designer and developer for 4 years. I love to design and make new web experiences for the people.</p>
                 </div>
                 <div style={styles.IconContainer}>
                     <div style={styles.icon}>
@@ -82,6 +86,9 @@ const styles = {
 
 
     },
+    // typeText:{
+    //     color: "#6D9886",
+    // },
     aboutContainer: {
         // color: "#F6F6F6",
         // flex: 1,
@@ -99,6 +106,7 @@ const styles = {
         fontSize: "25px",
         color: "#f6f6f6",
         padding: "5px",
+        
     },
     IconContainer: {
         display: "flex",
@@ -113,9 +121,19 @@ const styles = {
         width: "60px",
         padding: "10px",
     },
-    "@media (max-width: 768px)": {
-        display: "none",
-      }
+    paragraphText:{
+        fontSize: "15px",
+        color: "#f6f6f6",
+        padding: "5px",
+        textAlign: "center",
+    width: "50%",
+    },
+    secAboutContainer:{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+    }
 };
 
 export default Home

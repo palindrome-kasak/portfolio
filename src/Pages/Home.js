@@ -40,7 +40,7 @@ const Home = () => {
 
                 </div>
                 <div style={styles.secAboutContainer}>
-                    <p style={styles.paragraphText}>I am working as a freelance web designer and developer for 4 years. I love to design and make new web experiences for the people.</p>
+                    <p style={styles.paragraphText}>I am working as a developer. I love to design and make new web experiences for the people.</p>
                 </div>
                 <div style={styles.IconContainer}>
                     <div style={styles.icon}>

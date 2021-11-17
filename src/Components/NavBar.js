@@ -179,6 +179,7 @@ const OverlayMenu = styled.ul`
     font-size: 25px;
     margin: 50px 0px;
     transition: opacity 0.4s ease-in-out;
+    text-align: center;
   }
 
   li:nth-child(2) {

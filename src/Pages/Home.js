@@ -1,11 +1,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import CropProfile from '../assets/pictures/CropProfile.png'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin,AiOutlineMail } from 'react-icons/ai';
 import { SiLeetcode } from "react-icons/si";
 import Typical from 'react-typical';
 
 const Home = () => {
+    // var css = ".styles_typicalWrapper__1_Uvh::after {\n  content: \"\";\n  animation: styles_blink__2CKyC 1s infinite step-start;\n}\n\n@keyframes styles_blink__2CKyC {\n  50% { opacity: 0; }\n}";
     return (
         <>
             <div style={styles.main}>
@@ -24,6 +25,7 @@ const Home = () => {
                             steps={['Hello', 1000, 'Hello world!', 500]}
                             loop={Infinity}
                             wrapper="b"
+                           
                             // eslint-disable-next-line react/jsx-no-duplicate-props
                             steps={['Developer',
                                 2000,
@@ -55,6 +57,10 @@ const Home = () => {
                         <a target="_blank" href="https://github.com/palindrome-kasak"><AiFillGithub /></a>
 
                     </div>
+                    <div style={styles.icon}>
+                        <a target="_blank" href="mailto:kasakgupta2051@gmail.com"><AiOutlineMail /></a>
+
+                    </div>
                 </div>
             </div>
 
@@ -67,7 +73,7 @@ const styles = {
     main: {
         display: "flex",
         flexDirection: "column",
-        justifySontent: "center",
+        justifyContent: "center",
         alignItems: "center",
 
     },
@@ -75,7 +81,7 @@ const styles = {
     pictureContainer: {
         display: "flex",
         flexDirection: "column",
-        justifySontent: "center",
+        justifycontent: "center",
         alignItems: "center",
     },
     picture: {
@@ -109,7 +115,7 @@ const styles = {
     IconContainer: {
         display: "flex",
         flexDirection: "row",
-        justifySontent: "center",
+        justifyContent: "center",
         alignItems: "center",
         padding: "10px",
         

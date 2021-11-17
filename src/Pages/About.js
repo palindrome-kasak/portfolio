@@ -165,17 +165,18 @@ Enthusiastic learner , minimal, Greatful !!✨
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
               <AboutInfoItem
-                title="sept-nov 2020"
-                items={['junior developer at Here2help']}
+                title="june-sept 2021"
+                items={['Developer at Creed essential']}
               />
               <AboutInfoItem
                 title="Nov-jan 2021"
-                items={['FrontEnd developer at Contango']}
+                items={['FrontEnd Developer at Contango']}
               />
-              <AboutInfoItem
-                title="june-aug 2021"
-                items={['developer at Creed essential']}
+               <AboutInfoItem
+                title="sept-nov 2020"
+                items={['Junior Developer at Here2help']}
               />
+
               {/* <AboutInfoItem
                 title="2016-"
                 items={['Freelance web Developer']}

@@ -116,13 +116,12 @@ Enthusiastic learner , minimal, Greatful !!✨
           <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
-
               <AboutInfoItem
                 title="School"
                 items={['SMK SENIOR SECONDARY SCHOOL']}
               />
               <AboutInfoItem
-                title="Collage"
+                title="College"
                 items={['J.S.S. Academy of Technical Education, Noida']}
               />
               {/* <AboutInfoItem

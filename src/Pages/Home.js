@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import CropProfile from '../assets/pictures/CropProfile.png'
-import { AiFillGithub, AiFillLinkedin,AiOutlineMail } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { SiLeetcode } from "react-icons/si";
 import Typical from 'react-typical';
 
@@ -25,7 +25,7 @@ const Home = () => {
                             steps={['Hello', 1000, 'Hello world!', 500]}
                             loop={Infinity}
                             wrapper="b"
-                           
+
                             // eslint-disable-next-line react/jsx-no-duplicate-props
                             steps={['Developer',
                                 2000,
@@ -46,15 +46,14 @@ const Home = () => {
                 </div>
                 <div style={styles.IconContainer}>
                     <div style={styles.icon}>
-                        <a target="_blank" href="https://leetcode.com/Palindrome_kasak/"><SiLeetcode /></a>
-
+                        <a target="_blank" href="https://github.com/palindrome-kasak"><AiFillGithub /></a>
                     </div>
                     <div style={styles.icon}>
                         <a target="_blank" href="https://www.linkedin.com/in/kasakgupta2051/"> <AiFillLinkedin /></a>
 
                     </div>
                     <div style={styles.icon}>
-                        <a target="_blank" href="https://github.com/palindrome-kasak"><AiFillGithub /></a>
+                        <a target="_blank" href="https://leetcode.com/Palindrome_kasak/"><SiLeetcode /></a>
 
                     </div>
                     <div style={styles.icon}>
@@ -110,7 +109,7 @@ const styles = {
         fontSize: "25px",
         color: "#f6f6f6",
         padding: "5px",
-        
+
     },
     IconContainer: {
         display: "flex",
@@ -118,21 +117,21 @@ const styles = {
         justifyContent: "center",
         alignItems: "center",
         padding: "10px",
-        
+
 
     },
     icon: {
         width: "60px",
         padding: "10px",
     },
-    paragraphText:{
+    paragraphText: {
         fontSize: "15px",
         color: "#f6f6f6",
         padding: "5px",
         textAlign: "center",
-    width: "50%",
+        width: "50%",
     },
-    secAboutContainer:{
+    secAboutContainer: {
         display: "flex",
         flexDirection: "row",
         justifyContent: "center",

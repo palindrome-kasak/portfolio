@@ -136,6 +136,10 @@ Enthusiastic learner , minimal, Greatful !!✨
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'REACT-JS']}
               />
+                <AboutInfoItem
+                title="FrameWork"
+                items={['REACT-NATIVE']}
+              />
               <AboutInfoItem
                 title="Databases"
                 items={['Firebase']}
@@ -156,10 +160,7 @@ Enthusiastic learner , minimal, Greatful !!✨
                 title="Tools"
                 items={['VsCode','intelliJ','github']}
               />
-               <AboutInfoItem
-                title="FrameWork"
-                items={['REACT-NATIVE']}
-              />
+             
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>

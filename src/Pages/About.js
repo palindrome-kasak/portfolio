@@ -85,7 +85,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Kasak</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Software Engineer </h2>
               <div className="about__info">
                 <PText>
                   I am from firozabad, Uttar Pradesh. A place of beauty and
@@ -165,19 +165,19 @@ Enthusiastic learner , minimal, Greatful !!✨
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
               <AboutInfoItem
-                title="april-may 2022"
-                items={['Junior Developer at Here2help']}
+                title="April-May 2022"
+                items={['React Developer at KyloApps']}
               />
               <AboutInfoItem
-                title="june-oct 2021"
+                title="June-Oct 2021"
                 items={['Developer at Creed essential']}
               />
               <AboutInfoItem
-                title="Nov-jan 2021"
+                title="Nov-Jan 2021"
                 items={['Mobile Developer at Contango']}
               />
                <AboutInfoItem
-                title="sept-nov 2020"
+                title="Sept-Nov 2020"
                 items={['Developer at Here2help']}
               />
                
